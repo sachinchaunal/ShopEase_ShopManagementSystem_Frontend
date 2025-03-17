@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Utility Classes */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Card Hover Effect */
+.product-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom Button Styles */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Navbar Customization */
+.navbar-brand {
+  font-weight: 700;
+}
+
+/* Banner Styles */
+.banner {
+  background-color: #f1f8ff;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  background-color: #343a40;
+  color: white;
+}
+
+/* Cart Badge */
+.cart-badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  padding: 2px 6px;
+  border-radius: 50%;
+  background-color: #dc3545;
+  color: white;
+  font-size: 12px;
+}
+
+/* Order Status Pills */
+.status-pending {
+  background-color: #ffc107;
+}
+
+.status-preparing {
+  background-color: #17a2b8;
+}
+
+.status-ready {
+  background-color: #28a745;
+}
+
+.status-completed {
+  background-color: #6c757d;
+}
+
+.status-cancelled {
+  background-color: #dc3545;
+}
+
+/* Quantity Input */
+.quantity-input {
+  width: 80px;
+  text-align: center;
+}
+
+/* Product Image */
+.product-image {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+/* Admin Dashboard Cards */
+.dashboard-card {
+  border-left: 4px solid #007bff;
+  transition: transform 0.3s;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Form Controls */
+.form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 3rem;
+  color: #6c757d;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .banner {
+    padding: 1rem 0;
+  }
+  
+  footer {
+    margin-top: 2rem;
+    padding: 1rem 0;
+  }
+} 
