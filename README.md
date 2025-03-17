@@ -1,0 +1,2 @@
+# ShopEase_ShopManagementSystem_Frontend
+Shop Inventory Management System
