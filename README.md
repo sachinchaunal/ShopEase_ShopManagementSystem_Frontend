@@ -2,6 +2,40 @@
 
 This is the frontend for the Shop Management System, built with React.
 
+
+## Project Preview
+
+<table>
+   <tr>
+    <td colspan="3"><img src="/screenshot/Screenshot (283).png" alt="Admin" width="800" height="400"></td>
+  </tr>
+   <tr>
+    <td colspan="3"><img src="/screenshot/Screenshot (281).png" alt="Admin" width="800" height="400"></td>
+  </tr>
+   <tr>
+    <td colspan="3"><img src="/screenshot/Screenshot (277).png" alt="Landing" width="800" height="400"></td>
+  </tr>
+   <tr>
+    <td colspan="3"><img src="/screenshot/Screenshot (278).png" alt="Admin" width="800" height="400"></td>
+  </tr>
+   <tr>
+    <td colspan="3"><img src="/screenshot/Screenshot (279).png" alt="Admin" width="800" height="400"></td>
+  </tr>
+   <tr>
+    <td colspan="3"><img src="/screenshot/Screenshot (280).png" alt="Admin" width="800" height="400"></td>
+  </tr>
+  </tr>
+   <tr>
+    <td colspan="3"><img src="/screenshot/Screenshot (282).png" alt="Admin" width="800" height="400"></td>
+  </tr>
+  </tr>
+   <tr>
+    <td colspan="3"><img src="/screenshot/Screenshot (284).png" alt="Admin" width="800" height="400"></td>
+  </tr>
+    
+ 
+</table>
+
 ## Features
 
 - Customer interface for browsing products and placing orders
