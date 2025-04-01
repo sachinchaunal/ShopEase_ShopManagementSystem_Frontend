@@ -25,6 +25,7 @@ import CustomerRoute from './components/routes/CustomerRoute';
 import { Analytics } from "@vercel/analytics/react";
 function App() {
   return (
+    <Analytics />
     <AuthProvider>
       <CustomerProvider>
         <CartProvider>
