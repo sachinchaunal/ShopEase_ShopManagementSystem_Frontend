@@ -22,7 +22,7 @@ import { AuthProvider } from './context/AuthContext';
 import { CustomerProvider } from './context/CustomerContext';
 import PrivateRoute from './components/routes/PrivateRoute';
 import CustomerRoute from './components/routes/CustomerRoute';
-
+import { Analytics } from "@vercel/analytics/react";
 function App() {
   return (
     <AuthProvider>
